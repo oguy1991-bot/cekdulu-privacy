@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kebijakan Privasi - CekDulu</title>
+    <meta
+      name="description"
+      content="Kebijakan privasi CekDulu: aplikasi anti-scam yang bekerja secara lokal dan privacy-first."
+    />
+    <style>
+      :root {
+        --primary: #0f6b55;
+        --text: #17332c;
+        --muted: #55716a;
+        --bg: #f6faf8;
+        --surface: #ffffff;
+        --border: #d7e5e0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+      }
+      .wrap {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 24px 20px 64px;
+      }
+      header {
+        background: var(--primary);
+        color: #fff;
+        padding: 28px 20px;
+      }
+      header .wrap {
+        padding-bottom: 28px;
+      }
+      header h1 {
+        margin: 0 0 4px;
+        font-size: 26px;
+      }
+      header p {
+        margin: 0;
+        opacity: 0.92;
+      }
+      main {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        margin-top: 24px;
+        padding: 8px 24px 24px;
+      }
+      h2 {
+        color: var(--primary);
+        font-size: 19px;
+        margin-top: 28px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .note {
+        background: #e5f3ee;
+        border: 1px solid #c2e4d0;
+        border-radius: 12px;
+        padding: 12px 16px;
+        font-size: 15px;
+      }
+      footer {
+        color: var(--muted);
+        font-size: 13px;
+        text-align: center;
+        margin-top: 32px;
+      }
+      a {
+        color: var(--primary);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <h1>Kebijakan Privasi CekDulu</h1>
+        <p>Sebelum klik, CekDulu.</p>
+      </div>
+    </header>
+
+    <div class="wrap">
+      <main>
+        <p class="meta">Terakhir diperbarui: 2 Juni 2026</p>
+
+        <h2>Ringkasan</h2>
+        <p>
+          CekDulu dirancang dengan pendekatan privacy-first. Aplikasi bekerja
+          secara lokal di perangkat dan tidak mengirim isi pesan atau tautan yang
+          diperiksa ke server.
+        </p>
+
+        <h2>Data yang Diproses</h2>
+        <p>
+          CekDulu memproses teks dan tautan yang ditempelkan pengguna secara
+          lokal di perangkat untuk menghasilkan estimasi risiko berbasis aturan
+          dan database lokal.
+        </p>
+        <p>
+          CekDulu tidak meminta OTP, PIN, password, CVV, seed phrase, lokasi
+          perangkat, atau daftar kontak.
+        </p>
+        <p class="note">
+          Jangan masukkan data rahasia atau data pribadi sensitif ke dalam
+          aplikasi.
+        </p>
+
+        <h2>Penyimpanan Lokal</h2>
+        <p>
+          Setelah pengecekan dilakukan, isi yang ditempel dan hasil pemeriksaan
+          disimpan sebagai riwayat lokal di perangkat. CekDulu tidak menyediakan
+          akun pengguna atau sinkronisasi cloud. Pengguna dapat menghapus satu
+          riwayat atau seluruh riwayat dari dalam aplikasi.
+        </p>
+
+        <h2>Data yang Tidak Dikumpulkan</h2>
+        <p>CekDulu tidak menggunakan:</p>
+        <ul>
+          <li>server yang menyimpan data pengguna;</li>
+          <li>login atau akun pengguna;</li>
+          <li>analytics;</li>
+          <li>iklan;</li>
+          <li>pembayaran;</li>
+          <li>AI API;</li>
+          <li>pelacakan aktivitas pengguna;</li>
+          <li>lokasi perangkat; atau</li>
+          <li>daftar kontak.</li>
+        </ul>
+
+        <h2>Pembaruan Database (Opsional)</h2>
+        <p>
+          CekDulu dapat memperbarui database deteksinya dengan mengunduh berkas
+          JSON dari server bila pengguna menekan tombol "Update Database".
+          Pembaruan ini hanya <strong>mengunduh</strong> data; CekDulu tidak
+          mengirim isi pemeriksaan, riwayat, atau data pribadi apa pun ke server.
+          Berkas yang diunduh hanya berupa JSON, divalidasi sebelum dipakai, dan
+          tidak pernah dijalankan sebagai kode. Bila pembaruan gagal atau tidak
+          valid, aplikasi tetap memakai database bawaan dan tetap dapat dipakai
+          sepenuhnya secara offline.
+        </p>
+
+        <h2>Laporan Pengguna (Opsional)</h2>
+        <p>
+          Pengguna dapat menandai sebuah hasil pemeriksaan sebagai mencurigakan
+          beserta alasan dan catatan opsional. Pada versi ini, laporan
+          <strong>hanya disimpan di perangkat</strong> dan tidak diunggah ke
+          server. CekDulu tidak mengumpulkan nama, nomor telepon, email, kontak,
+          lokasi, OTP, PIN, password, atau data finansial melalui fitur laporan.
+        </p>
+
+        <h2>Tautan Mencurigakan</h2>
+        <p>
+          CekDulu tidak membuka tautan mencurigakan secara otomatis, tidak
+          melakukan scraping situs, dan tidak menjalankan kode dari situs
+          eksternal.
+        </p>
+
+        <h2>Batasan</h2>
+        <p>
+          Hasil pemeriksaan adalah estimasi risiko, bukan keputusan final.
+          Pengguna tetap disarankan mengecek ulang melalui kanal resmi.
+        </p>
+
+        <h2>Kontak</h2>
+        <p>
+          Pertanyaan terkait privasi dapat dikirim ke:
+          <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.
+          <!-- ISI: ganti CONTACT_EMAIL dengan email kontak resmi sebelum publikasi. -->
+        </p>
+      </main>
+
+      <footer>CekDulu &middot; Aplikasi anti-scam berbahasa Indonesia</footer>
+    </div>
+  </body>
+</html>
